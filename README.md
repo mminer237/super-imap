@@ -14,7 +14,7 @@ users.
 
 SuperIMAP is written in Ruby and open sourced under the MIT license. [Why Ruby?](#why-ruby)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/rustyio/super-imap)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/mminer237/super-imap)
 
 ## Contents
 
@@ -87,7 +87,7 @@ processes use the same dyno size. Do not mix and match boxes.
 
 #### Installing Elsewhere
 
-1. Get the code: `git clone https://github.com/rustyio/super-imap.git`
+1. Get the code: `git clone https://github.com/mminer237/super-imap.git`
 2. Update `config/database.yml`. (Use `config/database.yml.example`)
 3. Run `bundle` to install dependencies.
 4. Set the `SECRET_KEY_BASE` and `ENCRYPTION_KEY` environment
@@ -540,8 +540,8 @@ So, why Ruby? A few reasons:
   [less](https://github.com/boorad/erlimap)
   [mature](https://github.com/mxk/go-imap).
 
-Side Note: This was a deeply considered choice. I (Rusty Klophaus, the
-author of SuperIMAP) spent about 4 years writing Erlang
+Side Note: This was a deeply considered choice. Rusty Klophaus, the
+author of SuperIMAP, spent about 4 years writing Erlang
 professionally. It's a fascinating language.
 
 ## Appendix
